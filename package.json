@@ -4,7 +4,6 @@
   "description": "Download a file from an url in the browser.",
   "main": "./app/dist/esm/downloadFileWeb.js",
   "types": "./app/dist/esm/downloadFileWeb.d.ts",
-  "bin": "./app/dist/esm/cli/downloadFileWeb-cli.js",
   "exports": {
     "node": {
       "import": "./app/dist/esm/downloadFileWeb.js",
@@ -55,8 +54,5 @@
     "tslib": "2.0.0",
     "typescript": "^4.0.2",
     "webpack-merge": "^5.0.9"
-  },
-  "dependencies": {
-    "req-package-json": "^2.0.0"
   }
 }
