@@ -1,15 +1,15 @@
 {
-  "name": "download-file-web",
+  "name": "downloadar",
   "version": "1.0.0",
   "description": "Download a file from an url in the browser.",
-  "main": "./app/dist/esm/downloadFileWeb.js",
-  "types": "./app/dist/esm/downloadFileWeb.d.ts",
+  "main": "./app/dist/esm/downloadar.js",
+  "types": "./app/dist/esm/downloadar.d.ts",
   "exports": {
     "node": {
-      "import": "./app/dist/esm/downloadFileWeb.js",
-      "require": "./app/dist/cjs/downloadFileWeb.js"
+      "import": "./app/dist/esm/downloadar.js",
+      "require": "./app/dist/cjs/downloadar.js"
     },
-    "default": "./app/dist/esm/downloadFileWeb.js"
+    "default": "./app/dist/esm/downloadar.js"
   },
   "scripts": {
     "build": "npm run buildCJS && npm run buildESM",
@@ -19,14 +19,14 @@
     "devWeb": "rollup --config rollup.web.dev.config.js -w",
     "devNode": "rollup --config rollup.node.dev.config.js -w",
     "deploy": "npm run build && npm publish",
-    "repl": "node ./repl/dist/downloadFileWeb-repl.js",
+    "repl": "node ./repl/dist/downloadar-repl.js",
     "start": "npm run repl",
     "buildTest": "rollup --config rollup.node.test.config.js",
     "test": "npm run buildTest && jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maximilianMairinger/downloadFileWeb.git"
+    "url": "git+https://github.com/maximilianMairinger/downloadar.git"
   },
   "keywords": [
     "download",
@@ -38,9 +38,9 @@
   "author": "Maximilian Mairinger",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maximilianMairinger/downloadFileWeb/issues"
+    "url": "https://github.com/maximilianMairinger/downloadar/issues"
   },
-  "homepage": "https://github.com/maximilianMairinger/downloadFileWeb#readme",
+  "homepage": "https://github.com/maximilianMairinger/downloadar#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^13.0.0",
     "@rollup/plugin-json": "^4.1.0",

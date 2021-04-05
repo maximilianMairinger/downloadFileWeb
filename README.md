@@ -7,7 +7,7 @@ Download a file from an url in the browser.
 ## Installation
 
 ```shell
- $ npm i download-file-web
+ $ npm i downloadar
 ```
 
 ## Usage
@@ -15,9 +15,9 @@ Download a file from an url in the browser.
 
 
 ```ts
-import downloadFileWeb from "download-file-web"
+import downloadar from "downloadar"
 
-downloadFileWeb()
+downloadar()
 ```
 
 ## Contribute

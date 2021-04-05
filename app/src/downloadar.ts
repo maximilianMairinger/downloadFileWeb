@@ -1,6 +1,6 @@
 
 
-export function downloadFileWeb(url: string) {
+export function downloadar(url: string) {
   let aElem = document.createElement("a")
   aElem.innerHTML = "Download"
   aElem.href = url
@@ -8,4 +8,4 @@ export function downloadFileWeb(url: string) {
   aElem.click()
 }
 
-export default downloadFileWeb
+export default downloadar

@@ -1,4 +1,4 @@
-import downloadFileWeb from "../../app/src/downloadFileWeb"
+import downloadar from "../../app/src/downloadar"
 
 describe("core", () => {
   
