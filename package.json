@@ -30,12 +30,12 @@
     "url": "git+https://github.com/maximilianMairinger/downloadFileWeb.git"
   },
   "keywords": [
-  "download",
-  "file",
-  "image",
-  "browser",
-  "web"
-],
+    "download",
+    "file",
+    "image",
+    "browser",
+    "web"
+  ],
   "author": "Maximilian Mairinger",
   "license": "ISC",
   "bugs": {
