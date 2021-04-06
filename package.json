@@ -1,6 +1,6 @@
 {
   "name": "downloadar",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Download a file from an url in the browser.",
   "main": "./app/dist/esm/downloadar.js",
   "types": "./app/dist/esm/downloadar.d.ts",
